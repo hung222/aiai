@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'aichat.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://toityeudj:gVOJUjrZSCbY9B18obCGFMG7S0aizKmv@dpg-cf6f1asgqg47vk0e9r40-a/toiyeudj_qbl9',
+        default='postgresql://postgres:postgres@localhost/postgres',
         conn_max_age=600
     )
 }
